@@ -1,0 +1,11 @@
+usage: extract.py [-h] [-c CALENDAR_ID] [-s START] [-e END] [-z TIMEZONE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CALENDAR_ID, --calendar-id CALENDAR_ID
+                        Google Calendar calendar ID
+  -s START, --start START
+                        start date (start of week by default)
+  -e END, --end END     end date (end of week by default)
+  -z TIMEZONE, --timezone TIMEZONE
+                        Time zone (Paris by default)
